@@ -45,26 +45,10 @@ body {
 	padding-left: 10px;
 }
 
-/*
-.bd-footer {
-    padding: 4rem 0;
-    margin-top: 4rem;
-    font-size: 85%;
-    text-align: center;
-    background-color: #f7f7f7;
-	height: inherit;
-}
-*/
-
 footer {
-/*
-	position: absolute;
-	bottom: 0;
-*/
+	
 	width: 100%;
 	background: #fff;
-	
-/*	color: #fff;*/
 }
 
 #ico {
