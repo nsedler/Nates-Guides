@@ -67,6 +67,16 @@ footer {
 	border-bottom: 1px solid #333;
 }
 
+.carousel-inner{
+    height: 480px;
+}
+
+.item{
+    min-height:480px;
+    width:  100% !important;
+    border: 1px solid red;
+}
+
 .carousel-indicators li {
 	
 	height: 5px;
