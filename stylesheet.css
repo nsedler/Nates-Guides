@@ -63,6 +63,8 @@ footer {
 	
 	position: relative;
 	top: -32px;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 .carousel-indicators li {
