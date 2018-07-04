@@ -59,6 +59,12 @@ footer {
 
 }
 
+.carousel {
+	
+	position: relative;
+	top: -31px;
+}
+
 .fa-facebook {
 
 	color: #3B5998;
