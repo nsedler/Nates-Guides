@@ -65,6 +65,11 @@ footer {
 	top: -32px;
 }
 
+.carousel-indicators li {
+	
+	height: 5px;
+}
+
 .fa-facebook {
 
 	color: #3B5998;
