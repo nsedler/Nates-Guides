@@ -59,12 +59,110 @@
 		<div class="container">
 			<h1 class="display-4">Frequently Asked Questions</h1>
 			<hr class="my-4">
-			<p class="lead">Questions that we get asked a lot!</p>
+			<p class="lead" id="leadFaq">Questions that we get asked a lot!</p>
 		</div>
 	</div>
 
-	<div class="faqHeader">
+	<div class="faqHeader text-center">
 		General Questions
+		<hr class="my-4" id="faqHr">
+	</div>
+
+	<div class="accordion" id="accordionExample">
+		<div class="card">
+			<div class="card-header" id="headingOne">
+				<h5 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is the purpose of this site?
+        </button>
+				</h5>
+			</div>
+
+			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+				<div class="card-body">
+					This site will give you in-depth guides and champions that you want to play. They will help you hone your League of Legends Skill!
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingTwo">
+				<h5 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       					How do you choose what champions to make a guide on?
+        </button>
+				</h5>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				<div class="card-body">
+					The champions that I make a guide on are chosen with user feedback, whatever champion I feel like making a guide on. I enjoy sharing my knowledge of the champions that I play!
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingThree">
+				<h5 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       					How many people help you with the guides?
+        </button>
+				</h5>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				<div class="card-body">
+					Generally it's just me who makes the guide and this site but I've gotten a little but of help from a few friends on there advice about the layout, the color schemes etc.
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="faqHeader text-center" id="techFaq">
+		Technical Questions
+		<hr class="my-4" id="faqHr">
+	</div>
+	
+	<div class="accordion faq-sect-2" id="accordionExample">
+		<div class="card">
+			<div class="card-header" id="headingOne">
+				<h5 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          What was used to make this site?
+        </button>
+				</h5>
+			</div>
+
+			<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+				<div class="card-body">
+					I used HTML, CSS, and bootstrap 4.
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingTwo">
+				<h5 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+       					Where is this site hosted?
+        </button>
+				</h5>
+			</div>
+			<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+				<div class="card-body">
+					The site is currently being hosted on <a href="https://github.com">Github</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingThree">
+				<h5 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+       					How many people help you with the guides?
+        </button>
+				</h5>
+			</div>
+			<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+				<div class="card-body">
+					Generally it's just me who makes the guide and this site but I've gotten a little but of help from a few friends on there advice about the layout, the color schemes etc.
+				</div>
+			</div>
+		</div>
 	</div>
 
 
