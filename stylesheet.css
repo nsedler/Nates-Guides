@@ -7,7 +7,7 @@ body {
 
 .navbar {
 
-	font-size: 1.3em;
+	font-size: 1.3em !important;
 }
 
 .navbar-text {
@@ -19,7 +19,6 @@ body {
 .navbar-light .navbar-nav .active > .nav-link {
 
 	color: black;
-	/*	text-shadow: 0 0 2px #343a40;*/
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -103,8 +102,9 @@ footer {
 }
 
 #leadFaq {
-	
-	padding-top: 50px;
+
+/*	padding-top: 50px;*/
+	color: #3b3b3b;
 }
 
 .faqHeader {
@@ -113,43 +113,41 @@ footer {
 	font-size: 2em;
 }
 
-
-
 #faqHr {
-	
+
 	border-color: #fff;
 }
 
-#faqArrow {
-	
-
-}
-
 .accordion {
-	
-/*	width: 75%;*/
+
 	display: block;
 	margin: auto;
 }
 
-.card-header, .card-body {
-	
-	word-break:break-all;
+.card-header,
+.card-body {
+
+	word-break: break-all;
 }
 
 .faq-sect-2 {
-	
+
 	padding-bottom: 90px;
 }
 
 #techFaq {
-	
+
 	padding-top: 20px;
 }
 
-.singedAbilities {
+.btn-link {
 	
-	height: 16px;
+	color: #3b3b3b;
+}
+
+.btn-link:hover {
+	
+	color: #131313;
 }
 
 @media only screen and (max-width: 991px) {
