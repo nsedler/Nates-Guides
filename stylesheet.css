@@ -147,6 +147,11 @@ footer {
 	padding-top: 20px;
 }
 
+.singedAbilities {
+	
+	height: 16px;
+}
+
 @media only screen and (max-width: 991px) {
 	.navbar-text {
 
