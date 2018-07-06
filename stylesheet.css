@@ -76,7 +76,7 @@ footer {
 	height: 5px;
 }
 
-.fa-facebook {
+.fa-facebook-f {
 
 	color: #3B5998;
 }
@@ -86,7 +86,7 @@ footer {
 	color: #00aced;
 }
 
-.fa-google-plus {
+.fa-google-plus-g {
 
 	color: #dd4b39;
 }
@@ -99,6 +99,11 @@ footer {
 .fa-github {
 
 	color: #333;
+}
+
+.fa-discord {
+	
+	color: #7289DA;
 }
 
 #leadFaq {
