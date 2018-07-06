@@ -155,11 +155,6 @@ footer {
 	color: #131313;
 }
 
-.table {
-	
-	padding-bottom: 15px;
-}
-
 @media only screen and (max-width: 991px) {
 	.navbar-text {
 
@@ -173,6 +168,9 @@ footer {
 	.btn-link {
 		
 		position: relative;
-		left: -20px;
+		left: -23px;
 	}
+	
 }
+
+
