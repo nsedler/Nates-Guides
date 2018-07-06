@@ -147,7 +147,7 @@ footer {
 
 .btn-link {
 	
-	color: #3b3b3b ;
+	color: #3b3b3b;
 }
 
 .btn-link:hover {
@@ -155,10 +155,24 @@ footer {
 	color: #131313;
 }
 
+.table {
+	
+	padding-bottom: 15px;
+}
+
 @media only screen and (max-width: 991px) {
 	.navbar-text {
 
 		padding-right: 0;
 		border-right: 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	
+	.btn-link {
+		
+		position: relative;
+		left: -20px;
 	}
 }
