@@ -148,12 +148,20 @@ footer {
 .btn-link {
 	
 	color: #3b3b3b;
+	font-size: 1em;
+	font-weight: 900;
 }
 
 .btn-link:hover {
 	
 	color: #131313;
 }
+
+.card {
+	
+	font-size: 1em;
+}
+
 
 @media only screen and (max-width: 991px) {
 	.navbar-text {
@@ -169,6 +177,13 @@ footer {
 		
 		position: relative;
 		left: -23px;
+		font-size: .7em;
+/*		font-weight: 900;*/
+	}
+	
+	.card {
+		
+		font-size: .8em;
 	}
 	
 }
