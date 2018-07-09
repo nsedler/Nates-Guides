@@ -98,13 +98,13 @@ footer {
 }
 
 .fa-discord {
-	
+
 	color: #7289DA;
 }
 
 #leadFaq {
 
-/*	padding-top: 50px;*/
+	/*	padding-top: 50px;*/
 	color: #3b3b3b;
 }
 
@@ -142,30 +142,61 @@ footer {
 }
 
 .btn-link {
-	
+
 	color: #3b3b3b;
 	font-size: 1em;
 	font-weight: 900;
 }
 
 .btn-link:hover {
-	
+
 	color: #131313;
 }
 
 .card {
-	
+
 	font-size: 1em;
 }
 
 #guideHeader {
-	
+
 	padding-top: 20px;
 }
 
 .img-fluid {
-	
+
 	padding-bottom: 50px;
+}
+
+#singedRunes {
+
+	height: 120px;
+	padding-left: 20px;
+}
+
+#singedRunes:nth-child(1) {
+	
+	transform: scale(.9);
+}
+
+#singedRunes:nth-child(2) {
+
+	transform: scale(1.7);
+	position: relative;
+	top: 20px;
+
+}
+
+.popover-header {
+	
+	color: white;
+	background-color: #32383e;
+}
+
+.popover-body {
+	
+	background-color: #343a40;
+	color: white;
 }
 
 @media only screen and (max-width: 991px) {
@@ -174,21 +205,20 @@ footer {
 		padding-right: 0;
 		border-right: 0;
 	}
+}
 
 @media only screen and (max-width: 400px) {
-	
+
 	.btn-link {
-		
+
 		position: relative;
 		left: -23px;
 		font-size: .7em;
 	}
-	
+
 	.card {
-		
+
 		font-size: .8em;
 	}
-	
+
 }
-
-
