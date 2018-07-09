@@ -15,6 +15,7 @@
 	<link rel="icon" href="img/singed.png">
 
 	<link rel="stylesheet" href="stylesheet.css">
+	<script src="test.js"></script>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -55,11 +56,34 @@
 			</ul>
 		</div>
 	</nav>
-	
+
 	<div class="container text-center">
 		<h1 class="text-white" id="guideHeader">Singed</h1>
 		<hr class="my-4" id="faqHr">
 	</div>
+
+
+
+	
+
+	<script>
+		$(document).ready(function() {
+			$('[data-toggle="popover"]').popover();
+		});
+
+	</script>
+
+	<div class="container">
+
+		<a href="#" data-toggle="popover" data-trigger="hover" title="Popover Header" data-content="Some content inside the popover"><img class="img-fluid" src="img/runes/Sorcery/sorcery.png" id="singedRunes"></a>
+
+		
+		<img class="img-fluid" id="singedRunes" src="img/runes/Sorcery/summon-aery.png">
+		<img class="img-fluid" id="singedRunes" src="img/runes/Sorcery/nimbus-cloak.png">
+		<img class="img-fluid" id="singedRunes" src="img/runes/Sorcery/celerity.png">
+		<img class="img-fluid" id="singedRunes" src="img/runes/Sorcery/scorch.png">
+	</div>
+
 
 	<table class="table table-dark">
 		<thead>
@@ -103,8 +127,10 @@
 			</tr>
 		</tbody>
 	</table>
-	
-	<img class="img-fluid" src="img/singedLevel.png" alt="What abilities to level up.">
+
+	<img class="img-fluid" src="img/singedGuide/singedLevel.png" alt="What abilities to level up.">
+
+
 
 
 	<footer class="text-center fixed-bottom">
