@@ -168,6 +168,7 @@ footer {
 	padding-bottom: 50px;
 }
 
+
 #runes:nth-child(1) {
 
 	transform: scale(.8);
@@ -180,11 +181,26 @@ footer {
 
 }
 
-#runes:nth-child(2) {
+#runes:nth-child(2) { }
+
+#singedRunes {
+
+	height: 120px;
+	padding-left: 20px;
+}
+
+#singedRunes:nth-child(1) {
+	
+	transform: scale(.9);
+}
+
+#singedRunes:nth-child(2) {
+
 
 	transform: scale(1.7);
 	position: relative;
 	top: 20px;
+
 	padding-right: 10px;
 }
 
@@ -199,6 +215,21 @@ footer {
 
 	height: 120px;
 	padding-left: 20px;
+
+
+}
+
+.popover-header {
+	
+	color: white;
+	background-color: #32383e;
+}
+
+.popover-body {
+	
+	background-color: #343a40;
+	color: white;
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -207,19 +238,20 @@ footer {
 		padding-right: 0;
 		border-right: 0;
 	}
+}
 
-	@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
 
-		.btn-link {
+	.btn-link {
 
-			position: relative;
-			left: -23px;
-			font-size: .7em;
-		}
-
-		.card {
-
-			font-size: .8em;
-		}
-
+		position: relative;
+		left: -23px;
+		font-size: .7em;
 	}
+
+	.card {
+
+		font-size: .8em;
+	}
+
+}
