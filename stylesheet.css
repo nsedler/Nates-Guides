@@ -98,13 +98,13 @@ footer {
 }
 
 .fa-discord {
-	
+
 	color: #7289DA;
 }
 
 #leadFaq {
 
-/*	padding-top: 50px;*/
+	/*	padding-top: 50px;*/
 	color: #3b3b3b;
 }
 
@@ -142,30 +142,63 @@ footer {
 }
 
 .btn-link {
-	
+
 	color: #3b3b3b;
 	font-size: 1em;
 	font-weight: 900;
 }
 
 .btn-link:hover {
-	
+
 	color: #131313;
 }
 
 .card {
-	
+
 	font-size: 1em;
 }
 
 #guideHeader {
-	
+
 	padding-top: 20px;
 }
 
 .img-fluid {
-	
+
 	padding-bottom: 50px;
+}
+
+#runes:nth-child(1) {
+
+	transform: scale(.8);
+
+}
+
+#runes1:nth-child(1) {
+
+	transform: scale(.8);
+
+}
+
+#runes:nth-child(2) {
+
+	transform: scale(1.7);
+	position: relative;
+	top: 20px;
+	padding-right: 10px;
+}
+
+
+#runes {
+
+	height: 120px;
+	padding-left: 20px;
+}
+
+#runes1 {
+
+	height: 120px;
+	padding-left: 20px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -175,20 +208,18 @@ footer {
 		border-right: 0;
 	}
 
-@media only screen and (max-width: 400px) {
-	
-	.btn-link {
-		
-		position: relative;
-		left: -23px;
-		font-size: .7em;
-	}
-	
-	.card {
-		
-		font-size: .8em;
-	}
-	
-}
+	@media only screen and (max-width: 400px) {
 
+		.btn-link {
 
+			position: relative;
+			left: -23px;
+			font-size: .7em;
+		}
+
+		.card {
+
+			font-size: .8em;
+		}
+
+	}
