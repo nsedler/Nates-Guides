@@ -169,11 +169,7 @@ footer {
 }
 
 
-#runes:nth-child(1) {
 
-	transform: scale(.8);
-
-}
 
 #runes1:nth-child(1) {
 
@@ -181,20 +177,18 @@ footer {
 
 }
 
-#runes:nth-child(2) { }
-
-#singedRunes {
+#runes {
 
 	height: 120px;
 	padding-left: 20px;
 }
 
-#singedRunes:nth-child(1) {
-	
+#runes:nth-child(1) {
+
 	transform: scale(.9);
 }
 
-#singedRunes:nth-child(2) {
+#runes:nth-child(2) {
 
 
 	transform: scale(1.7);
@@ -220,16 +214,21 @@ footer {
 }
 
 .popover-header {
-	
+
 	color: white;
 	background-color: #32383e;
 }
 
 .popover-body {
-	
+
 	background-color: #343a40;
 	color: white;
 
+}
+
+#champBio {
+	
+	padding-bottom: 35px;
 }
 
 @media only screen and (max-width: 991px) {
